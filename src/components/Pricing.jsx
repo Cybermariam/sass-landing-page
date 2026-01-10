@@ -37,7 +37,7 @@ const Pricing = () => {
         {/* Toggle Buttons */}
         <div className="flex justify-center mb-16">
           <div className="p-1 rounded-md flex bg-slate-100">
-            <button className="bg-[#05255f] rounded-sm text-sm text-white px-6 py-2">
+            <button className="bg-midnight rounded-sm text-sm text-white px-6 py-2">
               Monthly
             </button>
             <button className="text-slate-600 px-6 py-2 text-sm">Yearly</button>
@@ -85,8 +85,8 @@ const Pricing = () => {
                 <button
                   className={`w-full py-3 rounded-md font-bold transition-colors ${
                     isFeatured
-                      ? "bg-[#FCD34D] text-[#05255f] hover:bg-yellow-400"
-                      : "bg-[#DFE3FF] text-[#05255f] hover:bg-blue-200"
+                      ? "bg-[#FCD34D] text-midnight hover:bg-yellow-400"
+                      : "bg-[#DFE3FF] text-midnight hover:bg-blue-200"
                   }`}
                 >
                   Purchase Now
