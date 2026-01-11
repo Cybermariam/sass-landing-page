@@ -4,7 +4,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const HeroSection = () => {
   return (
-    <header className="flex flex-col font-lora bg-background2">
+    <header className="flex flex-col font-lora bg-background2 id">
       <div className="flex flex-col justify-between md:flex-row md:items-center ">
         <div className=" p-12 ">
           <h1 className="font-medium text-4xl  md:text-5xl lg:text-6xl max-w-100">
@@ -18,7 +18,7 @@ const HeroSection = () => {
             Start a free trial
           </button>
         </div>
-        <div className="pr-12">
+        <div className=" p-11 ">
           <img
             src={HeroImage}
             alt="Hero Image"
@@ -27,7 +27,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="mt-10 flex justify-center bg-[#D1EDF5] h-15">
-        <div className=" flex-row items-center flex space-x-10">
+        <div className=" md:flex-row items-left md:items-center flex-col  flex md:space-x-10">
           <div className="flex items-center space-x-2">
             <FaCircleCheck /> <span>100% satisfaction</span>
           </div>

@@ -14,7 +14,7 @@ const Testimonial = () => {
             Trusted by industry leaders & experts
           </h3>
 
-          <p className="text-lg text-slate-600 leading-relaxed">
+          <p className="text-sm text-slate-600 leading-relaxed">
             “Switching to this SaaS platform was a game-changer for our
             business. Before, we struggled with inefficiencies, outdated
             systems, and a lack of real-time collaboration. Now, everything is

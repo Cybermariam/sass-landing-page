@@ -41,7 +41,7 @@ const Services = () => {
       </h2>
 
       {/* 1. GRID WRAPPER MOVED OUTSIDE THE MAP */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 md:gap-y-16 ">
         {services.map((service, index) => (
           <div key={index} className="flex flex-col items-start text-left">
             {/* 2. OPTIONAL: Add a light blue bg to the first card like your screenshot */}
