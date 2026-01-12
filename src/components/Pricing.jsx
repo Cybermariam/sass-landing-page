@@ -49,7 +49,7 @@ const Pricing = () => {
             // 1. Define the base colors once
             const isFeatured = plan.featured;
             const cardBg = isFeatured
-              ? "bg-[#05255f] text-white"
+              ? "bg-midnight text-white"
               : "bg-white text-slate-800";
             const cardLayout = isFeatured
               ? "scale-110 z-10 py-12 shadow-xl"
@@ -83,7 +83,7 @@ const Pricing = () => {
                 </div>
 
                 <button
-                  className={`w-full py-3 rounded-md font-bold transition-colors ${
+                  className={`w-full py-3 rounded-md font-light transition-colors ${
                     isFeatured
                       ? "bg-[#FCD34D] text-midnight hover:bg-yellow-400"
                       : "bg-[#DFE3FF] text-midnight hover:bg-blue-200"
