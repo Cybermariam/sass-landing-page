@@ -83,7 +83,7 @@ const Pricing = () => {
                 </div>
 
                 <button
-                  className={`w-full py-3 rounded-md font-light transition-colors ${
+                  className={`w-full py-3 rounded-md font-light transition-colors text-sm ${
                     isFeatured
                       ? "bg-[#FCD34D] text-midnight hover:bg-yellow-400"
                       : "bg-[#DFE3FF] text-midnight hover:bg-blue-200"

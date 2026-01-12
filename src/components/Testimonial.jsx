@@ -26,7 +26,7 @@ const Testimonial = () => {
             <span className="text-sm text-slate-500">COO at NexaCorp</span>
           </div>
 
-          <button className="bg-tahiti text-midnight px-6 py-3 rounded font-light hover:brightness-95 transition-all">
+          <button className="bg-tahiti text-sm text-midnight px-6 py-3 rounded font-light hover:brightness-95 transition-all">
             View all testimonials
           </button>
         </div>
